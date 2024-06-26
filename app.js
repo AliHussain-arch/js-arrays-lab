@@ -252,10 +252,10 @@ Complete Exercise 15 in the space below:
 */
 
 let total = 0;
-for(i = 0; i<numArrays.length; i++){
-   for(j = 0; j<(numArrays[i].length); j++){
-      total += numArrays[i][j];
-   }
-}
+numArrays.forEach((nums) => {
+   nums.forEach((num) => {
+       total += num; 
+   });
+});
 
 console.log('Exercise 15 result:\n', total);
