@@ -179,6 +179,7 @@ Exercise 12: FizzBuzz with arrays
 
 Complete Exercise 12 in the space below:
 */
+
 const fizz = [];
 const buzz = [];
 const fizzbuzz = [];
